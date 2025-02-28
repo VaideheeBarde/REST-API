@@ -8,7 +8,7 @@ Commands to run in the virtual environment before creating the Python API -<br /
 (.venv) PS C:\FilePath\RESTAPI> pip3 freeze > requirements.txt <br />
 (.venv) PS C:\FilePath\RESTAPI> python -c "open('application.py', 'w').close()" <br />
 
-Commands to run in powershell after creating the Python API -
+Commands to run in powershell after creating the Python API -<br />
 PS C:\FilePath\RESTAPI> $env:FLASK_APP = "application.py" <br />
 PS C:\FilePath\RESTAPI> $env:FLASK_ENV = "development" <br />
 PS C:\FilePath\RESTAPI> flask run <br />
