@@ -29,3 +29,5 @@ POST http://127.0.0.1:5000/drinks/
 GET http://127.0.0.1:5000/drinks/4
 3. Delete a drink
 DELETE http://127.0.0.1:5000/drinks/4
+
+test_api.robot - Created tests in Robot Framework to perform GET, POST and DELETE operations
