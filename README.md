@@ -1,7 +1,7 @@
 # REST-API
 Setting up our own Python API and database model setup for SQLAlchemy
 
-Commands to run in the virtual environment before creating the Python API -
+Commands to run in the virtual environment before creating the Python API -<br />
 (.venv) PS C:\FilePath\RESTAPI> pip3 install flask <br />
 (.venv) PS C:\FilePath\RESTAPI> pip3 install requests <br />
 (.venv) PS C:\FilePath\RESTAPI> pip3 install flask-sqlalchemy <br />
