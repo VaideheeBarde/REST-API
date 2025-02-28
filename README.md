@@ -2,25 +2,25 @@
 Setting up our own Python API and database model setup for SQLAlchemy
 
 Commands to run in the virtual environment before creating the Python API -
-(.venv) PS C:\FilePath\RESTAPI> pip3 install flask
-(.venv) PS C:\FilePath\RESTAPI> pip3 install requests
-(.venv) PS C:\FilePath\RESTAPI> pip3 install flask-sqlalchemy
-(.venv) PS C:\FilePath\RESTAPI> pip3 freeze > requirements.txt
-(.venv) PS C:\FilePath\RESTAPI> python -c "open('application.py', 'w').close()"
+(.venv) PS C:\FilePath\RESTAPI> pip3 install flask <br />
+(.venv) PS C:\FilePath\RESTAPI> pip3 install requests <br />
+(.venv) PS C:\FilePath\RESTAPI> pip3 install flask-sqlalchemy <br />
+(.venv) PS C:\FilePath\RESTAPI> pip3 freeze > requirements.txt <br />
+(.venv) PS C:\FilePath\RESTAPI> python -c "open('application.py', 'w').close()" <br />
 
 Commands to run in powershell after creating the Python API -
-PS C:\FilePath\RESTAPI> $env:FLASK_APP = "application.py"
-PS C:\FilePath\RESTAPI> $env:FLASK_ENV = "development"
-PS C:\FilePath\RESTAPI> flask run
- * Serving Flask app 'application.py' (lazy loading)
- * Environment: development
- * Debug mode: on
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: ***-***-***
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+PS C:\FilePath\RESTAPI> $env:FLASK_APP = "application.py" <br />
+PS C:\FilePath\RESTAPI> $env:FLASK_ENV = "development" <br />
+PS C:\FilePath\RESTAPI> flask run <br />
+ * Serving Flask app 'application.py' (lazy loading) <br />
+ * Environment: development <br />
+ * Debug mode: on <br />
+ * Restarting with stat <br />
+ * Debugger is active! <br />
+ * Debugger PIN: ***-***-*** <br />
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) <br />
 
-Route to http://127.0.0.1:5000/ on your browser 
+Route to http://127.0.0.1:5000/ on your browser <br />
 
 On POSTMAN - HTTP methods
 1. Create a new POST request and add the drink in JSON format - 
